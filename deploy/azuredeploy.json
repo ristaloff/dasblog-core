@@ -98,7 +98,7 @@
         "httpsOnly": true,
         "siteconfig": {
           "netFrameworkVersion": "[variables('netFrameworkVersion')]",
-          "use32BitWorkerProcess": false,
+          "use32BitWorkerProcess": true,
           "appSettings": [
             {
               "name": "ASPNETCORE_ENVIRONMENT",
