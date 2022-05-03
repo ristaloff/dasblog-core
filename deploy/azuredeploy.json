@@ -69,7 +69,7 @@
     "hostingPlanName": "[parameters('hostingPlan')]",
     "location": "[resourceGroup().location]",
     "netFrameworkVersion": "v6.0",
-    "use32BitWorkerProcess": false
+    "use32BitWorkerProcess": true
   },
   "resources": [
     {
